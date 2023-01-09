@@ -7,10 +7,11 @@ This is a simplify version to help future development.
 
 Change log:
 
-Motor driver: DRV8833\n
+Motor driver: DRV8833
+```
   Motor 1: D25
            D22
   Motor 2: D19
            D17
-           
-RGB LED port: D5
+```
+RGB LED port: ```D5```
