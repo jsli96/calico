@@ -180,7 +180,23 @@ circle:hover {
   opacity: 1; /* Fully shown on mouse-over */
 }
 
-/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.sliderWhite::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: rgba(255,255,255); /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.sliderWhite::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: rgba(255,255,255); /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
 .sliderGreen::-webkit-slider-thumb {
   -webkit-appearance: none; /* Override default look */
   appearance: none;

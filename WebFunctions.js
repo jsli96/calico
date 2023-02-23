@@ -9,31 +9,16 @@ console.log(speedx);
 var red = document.getElementById("Red");
 var green = document.getElementById("Green");
 var blue = document.getElementById("Blue");
+var timing = document.getElementById("Timing");
 
-// red.oninput = function() {
-// 	UART.write(`rgbLed(${this.value},${green.value},${blue.value});\n`);
-// 	console.log(this.value);
-// 	console.log(green.value);
-// 	console.log(blue.value);
-// }
-
-// green.oninput = function() {
-// 	UART.write(`rgbLed(${red.value},${this.value},${blue.value});\n`);
-// 	console.log(red.value);
-// 	console.log(this.value);
-// 	console.log(blue.value);
-// }
-
-// blue.oninput = function() {
-// 	UART.write(`rgbLed(${red.value},${green.value},${this.value});\n`);
-// 	console.log(red.value);
-// 	console.log(green.value);
-// 	console.log(this.value);
-// }
-
-function rgb() {
-	UART.write(`rgbLed(${green.value},${red.value},${blue.value});\n`);
+function rbg() {
+	UART.write(`rbgLed(${green.value},${red.value},${blue.value});\n`);
 	console.log(red.value);
 	console.log(green.value);
 	console.log(blue.value);
+}
+
+function notify(){
+	UART.write(`notification(${timing.value});\n`);
+	console.log(timing.value);
 }
