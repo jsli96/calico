@@ -40,18 +40,18 @@
                 Green</a>
             <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="UART.write(`rbgLed(0,0,255);\n`);">LED
                 Blue</a>
+            <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="UART.write(`rgbAutoChanging();\n`);">LED
+                Auto Changing</a>
             <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="UART.write(`rbgOff();\n`);">LED
                 Off</a>
             <div class="slidecontainer mt-4">
-                <input type="range" min="0" max="255" value="0" class="slider sliderGreen mt-2" id="Red">
-                <input type="range" min="0" max="255" value="0" class="slider sliderRed mt-2" id="Green">
+                <input type="range" min="0" max="255" value="0" class="slider sliderRed mt-2" id="Red">
+                <input type="range" min="0" max="255" value="0" class="slider sliderGreen mt-2" id="Green">
                 <input type="range" min="0" max="255" value="0" class="slider sliderBlue mt-2" id="Blue">
             </div>
-            <a class="btn btn-warning mt-3 btn-block btn-water btn-lg" onclick="rbg();">Update RGB</a>
-            <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="UART.write(`rgbAutoChanging();\n`);">LED
-                Auto Changing</a>
-            <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="UART.write(`rgbFading();\n`);">LED
-                Fading with Auto Change</a>
+            <a class="btn btn-warning mt-3 btn-block btn-water btn-lg" onclick="rbg();">Update Static RGB</a>
+            <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="rbgFading();">Update
+                Fading RGB</a>
         </div>
     </div>
 </div>
