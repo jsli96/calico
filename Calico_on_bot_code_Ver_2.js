@@ -1,4 +1,6 @@
 var notify_interval;
+var bf_interval;
+var bf_interval_status = false;
 var fade_rise_interval;
 var fade_down_interval;
 var fade_rise_status = false;
@@ -8,9 +10,12 @@ var rbgAuto_Status = false;
 var rbgFade_Status = false;
 var in_function_led_timeout_1;
 var in_function_led_timeout_2;
+var in_function_led_timeout_3;
+var in_function_led_timeout_4;
 
 
 function mf() {
+    stop_b_f();
     digitalWrite(D22, 1);
     digitalWrite(D25, 0);
     digitalWrite(D19, 1);
@@ -19,6 +24,7 @@ function mf() {
 
 
 function mb() {
+    stop_b_f();
     D22.write(0);
     D25.write(1);
     D19.write(0);
@@ -27,6 +33,7 @@ function mb() {
 
 
 function locoStop() {
+    stop_b_f();
     D22.write(0);
     D25.write(0);
     D19.write(0);
@@ -70,6 +77,42 @@ function notification(a) {
 }
 
 
+function back_n_forward(a) {
+    stop_b_f();
+    bf_interval_status = true;
+    var period = 2 * a + 250;
+    bf_interval = setInterval(function (a) {
+        in_function_led_timeout_3 = setTimeout(function (a) {
+            moveBackward(a);
+        }, a + 125, a);
+        moveForward(a);
+    }, period, a);
+    in_function_led_timeout_4 = setTimeout(function (a) {
+        moveBackward(a);
+    }, a + 125, a);
+    moveBackward(a + 125);
+}
+
+function stop_b_f() {
+    if (bf_interval_status == true) {
+        clearInterval(bf_interval);
+        if (typeof in_function_led_timeout_3 !== 'undefined') {
+            clearTimeout(in_function_led_timeout_3);
+        }
+        if (typeof in_function_led_timeout_4 !== 'undefined') {
+            clearTimeout(in_function_led_timeout_4);
+        }
+        bf_interval_status = false;
+        D22.write(0);
+        D25.write(0);
+        D19.write(0);
+        D17.write(0);
+        for (let i = 0; i < 50; i++) {
+            console.log('b_f_waiting-' + i);
+        }
+    }
+}
+
 function rbgLed(x, y, z) {
     stopPreviousLED();
     let led_data = [x, y, z, x, y, z, x, y, z];
@@ -80,8 +123,8 @@ function rbgLed(x, y, z) {
 function rbgOff() {
     stopPreviousLED();
     require("neopixel").write(5, [0, 0, 0, 0, 0, 0, 0, 0, 0]);
-    for (let i = 0; i < 100; i++){
-      console.log('waiting-'+ i);
+    for (let i = 0; i < 100; i++) {
+        console.log('waiting-' + i);
     }
 }
 
