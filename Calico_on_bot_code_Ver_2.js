@@ -136,9 +136,9 @@ function rgbAutoChanging() {
         require("neopixel").write(5, [255, 0, 0, 255, 0, 0, 255, 0, 0]);
         in_function_led_timeout_1 = setTimeout('require("neopixel").write(5, [0, 255, 0, 0, 255, 0, 0, 255, 0]);', 1000);
         in_function_led_timeout_2 = setTimeout('require("neopixel").write(5, [0, 0, 255, 0, 0, 255, 0, 0, 255]);', 2000);
-    }, 3000);
-    setTimeout('require("neopixel").write(5, [0, 255, 0, 0, 255, 0, 0, 255, 0]);', 1000);
-    setTimeout('require("neopixel").write(5, [0, 0, 255, 0, 0, 255, 0, 0, 255]);', 2000);
+    }, 1500);
+    setTimeout('require("neopixel").write(5, [0, 255, 0, 0, 255, 0, 0, 255, 0]);', 500);
+    setTimeout('require("neopixel").write(5, [0, 0, 255, 0, 0, 255, 0, 0, 255]);', 1000);
     require("neopixel").write(5, [255, 0, 0, 255, 0, 0, 255, 0, 0]);
 }
 
