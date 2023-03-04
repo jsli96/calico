@@ -17,15 +17,15 @@
     <h1 class="mt-5 mb-4">Touch Interface</h1>
     <div class="row">
         <div class="col-6">
-            <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="UART.write(`mf();\n`);">Forward</a>
+            <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="UART.write(`mf();\n`);"Backward</a>
             <a class="btn btn-warning mt-2 mb-3 btn-block btn-water btn-lg"
-               onclick="UART.write(`mb();\n`);">Backward</a>
+               onclick="UART.write(`mb();\n`);">Forward</a>
             <a class="btn btn-warning mt-2 mb-3 btn-block btn-water btn-lg"
                onclick="UART.write(`locoStop();\n`);">Stop</a>
             <a class="btn btn-warning mt-5 btn-block btn-water btn-lg" onclick="UART.write(`moveForward(1000);\n`);">1s
-                forward</a>
+                backward</a>
             <a class="btn btn-warning mt-2 mb-3 btn-block btn-water btn-lg"
-               onclick="UART.write(`moveBackward(1000);\n`);">1s backward</a>
+               onclick="UART.write(`moveBackward(1000);\n`);">1s forward</a>
             <div class="slidecontainer mt-4">
                 <input type="range" min="500" max="5000" value="2750" class="slider sliderWhite mt-2" id="Timing_buggy">
                 <a class="btn btn-warning mt-5 mb-3 btn-block btn-water btn-lg" onclick="notify();">Notification(buggy)</a>
