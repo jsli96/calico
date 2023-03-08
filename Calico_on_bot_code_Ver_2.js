@@ -129,7 +129,7 @@ function rbgOff() {
 }
 
 
-function rgbAutoChanging() {
+function rgbAutoChanging_slow() {
     rbgOff();
     rbgAuto_Status = true;
     rbgAuto = setInterval(function () {
@@ -141,6 +141,21 @@ function rgbAutoChanging() {
     setTimeout('require("neopixel").write(5, [0, 0, 255, 0, 0, 255, 0, 0, 255]);', 1000);
     require("neopixel").write(5, [255, 0, 0, 255, 0, 0, 255, 0, 0]);
 }
+
+
+function rgbAutoChanging_fast() {
+    rbgOff();
+    rbgAuto_Status = true;
+    rbgAuto = setInterval(function () {
+        require("neopixel").write(5, [255, 0, 0, 255, 0, 0, 255, 0, 0]);
+        in_function_led_timeout_1 = setTimeout('require("neopixel").write(5, [0, 255, 0, 0, 255, 0, 0, 255, 0]);', 100);
+        in_function_led_timeout_2 = setTimeout('require("neopixel").write(5, [0, 0, 255, 0, 0, 255, 0, 0, 255]);', 200);
+    }, 300);
+    setTimeout('require("neopixel").write(5, [0, 255, 0, 0, 255, 0, 0, 255, 0]);', 100);
+    setTimeout('require("neopixel").write(5, [0, 0, 255, 0, 0, 255, 0, 0, 255]);', 200);
+    require("neopixel").write(5, [255, 0, 0, 255, 0, 0, 255, 0, 0]);
+}
+
 
 
 var a = 0;

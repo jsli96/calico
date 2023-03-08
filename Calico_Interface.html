@@ -48,8 +48,10 @@
                 Blue</a>
             <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="UART.write(`rbgLed(55,55,55);\n`);">LED
                 White</a>
-            <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="UART.write(`rgbAutoChanging();\n`);">LED
-                Auto Changing</a>
+            <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="UART.write(`rgbAutoChanging_slow();\n`);">LED
+                Auto Changing (slow)</a>
+            <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="UART.write(`rgbAutoChanging_fast();\n`);">LED
+                Auto Changing (fast)</a>
             <a class="btn btn-warning mt-2 btn-block btn-water btn-lg" onclick="UART.write(`rbgOff();\n`);">LED
                 Off</a>
             <div class="slidecontainer mt-4">
