@@ -31,10 +31,10 @@ For more detailed information, please refer to the [paper website](https://smart
 
 ### Robot body and tracks 
 ![Robot body](kart.png)
-- [Main body](./3D print models) (3D print: PLA)
-- [Body cap](./3D print models) (3D print: PLA)
-- [Wheels](./3D print models) (3D print: PLA or Carbon PLA)
-- [Track](./3D print models) (3D print: TPU)
+- [Main body](./3D%20print%20models) (3D print: PLA)
+- [Body cap](./3D%20print%20models) (3D print: PLA)
+- [Wheels](./3D%20print%20models) (3D print: PLA or Carbon PLA)
+- [Track](./3D%20print%20models) (3D print: TPU)
 - M2 screws and insert nuts 
 
 ### Robot electronics
