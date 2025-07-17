@@ -12,13 +12,8 @@ For more detailed information, please refer to the [paper website](https://smart
 
 - [Features](#-features)  
 - [Hardware setup (BOM)](#-Hardware)  
+- [Arduio Configuration](#-configuration)  
 - [Usage](#-usage)  
-- [Configuration](#-configuration)  
-- [Examples](#-examples)  
-- [Contributing](#-contributing)  
-- [Roadmap](#-roadmap)  
-- [License](#-license)  
-- [Acknowledgements](#-acknowledgements)
 
 ---
 
@@ -35,6 +30,7 @@ For more detailed information, please refer to the [paper website](https://smart
 ## 🔧 Hardware
 
 ### Robot body and tracks
+![Robot body](kart.png)
 - Main body (3D print: PLA)
 - Body cap (3D print: PLA)
 - Wheels (3D print: PLA or Carbon PLA)
@@ -49,3 +45,4 @@ For more detailed information, please refer to the [paper website](https://smart
 - LED strip (4 LEDs)
 - 3.7V LiPo battery
 
+## Configuration
