@@ -22,9 +22,10 @@ For more detailed information, please refer to the [paper website](https://smart
 
 - Powerful MCU: ESP32 S3-Zero (Powered by [Waveshare](https://www.waveshare.com/wiki/ESP32-S3-Zero)) 
 - DC Motor Driver: DRV 8835
-- WiFi connection and controlled
-- LiPo battery powered and charge via USB-C
-- Graphical user interface (GUI) for easy control
+- Wi-Fi connection and controlled
+- LED strip for visual feedback
+- LiPo's battery powered and charge via USB-C
+- Graphical user interface (GUI) for real time control
 
 ---
 
@@ -80,6 +81,18 @@ To connect and control the robot, follow these steps:
 7. **Open the GUI** by navigating to the IP address in your web browser. The GUI will allow you to control the robot's movement and LED strip.
 
 ## Tips
+1. The robot will light up the LED light on board in different colors based on its status:
+   - **light off**: Robot not powered
+   - **steady blue**: Wi-Fi connected
+   - **flashing blue**: Trying to connect Wi-Fi
+   
+2. If you can not see the ip address from the serial port you can use LanScan tools to find the IP address of the robot. 
+   - For example, you can use [LanScan](https://apps.apple.com/us/app/lanscan/id472226235?mt=12) or [Advanced IP Scanner](https://www.advanced-ip-scanner.com/).
 
+3. All the connectors are JST PH 2.0
+4. The robot can be charged via USB-C port. (**be careful with the battery +/- directions**)
+   - The battery is 3.7V LiPo battery, and the charging current is 500mA.
+   - The battery can be replaced if needed.
+  
 
 
