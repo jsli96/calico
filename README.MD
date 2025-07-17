@@ -11,9 +11,9 @@ For more detailed information, please refer to the [paper website](https://smart
 ## 📦 Table of Contents
 
 - [Features](#-features)  
-- [Hardware setup (BOM)](#-Hardware)  
-- [Arduio Configuration](#-Configuration)  
-- [Connect & control the robot](#-Connect--control--the--robot)  
+- [Hardware setup (BOM)](#-hardware)  
+- [Arduino Configuration](#arduino-configuration)
+- [Connect & control the robot](#connect--control-the-robot)
 
 ---
 
@@ -45,7 +45,9 @@ For more detailed information, please refer to the [paper website](https://smart
 - LED strip (4 LEDs)
 - 3.7V LiPo battery
 
-## Configuration
+---
+
+## Arduino Configuration
 The robot is powered by an ESP32 S3-Zero, which is programmed using the Arduino IDE. 
 Please refer to the below steps to set up the Arduino IDE for Calico.
 - Install the [Arduino IDE](https://www.arduino.cc/en/software).
@@ -58,5 +60,9 @@ Please refer to the below steps to set up the Arduino IDE for Calico.
 - Refer to the below image to configure the ESP32 settings:
 - ![ESP32-S3](esp32-3s-ide-settings.png)
 
-## Connect & control the robot 
+---
+
+## Connect & control the robot
+
+
 
