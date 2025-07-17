@@ -11,7 +11,7 @@ For more detailed information, please refer to the [paper website](https://smart
 ## 📦 Table of Contents
 
 - [Features](#-features)  
-- [Hardware setup](#-Hardware Setup)  
+- [Hardware setup](#-Hardware Setup (BOM))  
 - [Usage](#-usage)  
 - [Configuration](#-configuration)  
 - [Examples](#-examples)  
