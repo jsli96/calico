@@ -11,7 +11,7 @@ For more detailed information, please refer to the [paper website](https://smart
 ## 📦 Table of Contents
 
 - [Features](#-features)  
-- [Hardware setup](#-Hardware Setup (BOM))  
+- [Hardware setup (BOM)](#-Hardware)  
 - [Usage](#-usage)  
 - [Configuration](#-configuration)  
 - [Examples](#-examples)  
@@ -32,7 +32,7 @@ For more detailed information, please refer to the [paper website](https://smart
 
 ---
 
-## 🔧 Hardware Setup (BOM)
+## 🔧 Hardware
 
 ### Robot body
 - MCU (ESP32 S3-Zero)
