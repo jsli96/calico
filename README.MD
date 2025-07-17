@@ -41,7 +41,7 @@ For more detailed information, please refer to the [paper website](https://smart
 
 ### Robot electronics
 ![PCB](control-Board.png)
-- MCU (ESP32 S3-Zero)
+- MCU ([ESP32 S3-Zero](https://www.waveshare.com/wiki/ESP32-S3-Zero))
 - Custom PCB ([See PCB folder for details](./PCB%20files))
 - N20 DC motors
 - LED strip (4 LEDs)
