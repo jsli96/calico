@@ -1,17 +1,17 @@
 @font-face {
     font-family: 'Archia Bold';
-    src: url('fonts/archia-bold-webfont.woff2') format('woff2');
+    src: url('calico 1.0 (previous model)/fontsa-bold-webfont.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Archia Medium';
-    src: url('fonts/archia-medium-webfont.woff2') format('woff2');
+    src: url('calico 1.0 (previous model)/fontsa-medium-webfont.woff2') format('woff2');
 }
 
 
 @font-face {
     font-family: 'Archia Semibold';
-    src: url('fonts/archia-semibold-webfont.woff2') format('woff2');
+    src: url('calico 1.0 (previous model)/fontsa-semibold-webfont.woff2') format('woff2');
 }
 
 .dark-mode {
