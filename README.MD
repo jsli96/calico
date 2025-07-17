@@ -75,7 +75,7 @@ To connect and control the robot, follow these steps:
    const char* ssid = "your-ssid";
    const char* password = "your-password";
    ```
-4. **Upload the code** to the ESP32 S3-Zero by clicking the upload button in the Arduino IDE. (You only need to do this once, once you have updated the Wi-Fi credentials.)
+4. **Upload the code** to the ESP32 S3-Zero by clicking the upload button in the Arduino IDE. (You only need to do this once. After you have updated the Wi-Fi credentials and uploaded the code into Calico robot, you can control the robot without needing to upload the code again.)
    - Make sure you have the correct board and port selected in the Arduino IDE.
    - The upload process may take a few minutes, and you will see the progress in the console at the bottom of the IDE.
 5. Once the upload is complete, open the Serial Monitor from `Tools` > `Serial Monitor` to see the connection status.
