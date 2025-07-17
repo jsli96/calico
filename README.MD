@@ -42,6 +42,7 @@ For more detailed information, please refer to the [paper website](https://smart
 - M2 screws and insert nuts 
 
 ### Robot electronics
+![PCB](Control-Board.png)
 - MCU (ESP32 S3-Zero)
 - Custom PCB (See PCB folder for details)
 - N20 DC motors
