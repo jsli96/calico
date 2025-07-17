@@ -34,21 +34,17 @@ For more detailed information, please refer to the [paper website](https://smart
 
 ## 🔧 Hardware
 
-### Robot body
-- MCU (ESP32 S3-Zero)
+### Robot body and tracks
 - Main body (3D print: PLA)
+- Body cap (3D print: PLA)
 - Wheels (3D print: PLA or Carbon PLA)
+- Track (3D print: TPU)
+- M2 screws and insert nuts 
+
+### Robot electronics
+- MCU (ESP32 S3-Zero)
+- Custom PCB (See PCB folder for details)
 - N20 DC motors
 - LED strip (4 LEDs)
 - 3.7V LiPo battery
 
-### Track
-- Track (3D print: TPU)
-
-
-### Steps  
-```bash
-git clone https://github.com/your-org/calico.git
-cd calico
-# then build or install:
-make build     # or `go build ./...`, etc.
