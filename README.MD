@@ -5,8 +5,8 @@
 **Calico** is a miniature relocatable wearable system with fast and precise locomotion for on-body interaction, actuation and sensing. 
 Calico consists of a two-wheel robot and an on-cloth track mechanism or "railway," on which the robot travels. 
 The robot is self-contained, small in size, and has additional sensor expansion options. 
-The Calico robot can adapt for various applications and target for different audience such as elder adults, dancers, and children. 
-We designed **[Dance^2](https://www.jonathan-david-martin.com/dance-squared)** with Calico robot to explore new forms of dance and movement, and to create a new form of interaction.
+The Calico robot can adapt for various applications and target for different audience such as older adults, dancers, and children. 
+For example, we designed **[Dance^2](https://www.jonathan-david-martin.com/dance-squared)** with Calico to explore new forms of dance and movement, and to create a new form of interaction.
 We also investigate how **[Calico for older adults](https://dl.acm.org/doi/10.5555/3721488.3721562)** can assist with daily activities and provide companionship. 
 
 Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) and [papers](https://dl.acm.org/doi/10.1145/3715336.3735828) for more details on the design and applications of Calico.
