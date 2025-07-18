@@ -20,6 +20,7 @@ Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) 
 - [Arduino Configuration](#arduino-configuration)
 - [Connect & control the robot](#connect--control-the-robot)
 - [Tips](#tips)
+- [Publications](#citations)
 
 ---
 
@@ -126,6 +127,41 @@ After you have updated the Wi-Fi credentials and uploaded the code into Calico r
 4. The robot can be charged via USB-C port. (**be careful with the battery +/- directions**)
    - The battery is 3.7V LiPo battery, and the charging current is 500mA.
    - The battery can be replaced if needed.
+
+## Citations
+If you use Calico in your work, please consider to cite the following papers:
+```
+@article{sathya2022calico,
+  title={Calico: Relocatable On-cloth Wearables with Fast, Reliable, and Precise Locomotion},
+  author={Sathya, Anup and Li, Jiasheng and Rahman, Tauhidur and Gao, Ge and Peng, Huaishu},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={6},
+  number={3},
+  pages={1--32},
+  year={2022},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{sathya2025cybernetic,
+  title={Cybernetic Marionette: Channeling Collective Agency Through a Wearable Robot in a Live Dancer-Robot Duet},
+  author={Sathya, Anup and Li, Jiasheng and Yan, Zeyu and Fang, Adriane and Kules, Bill and Martin, Jonathan David and Peng, Huaishu},
+  booktitle={Proceedings of the 2025 ACM Designing Interactive Systems Conference},
+  pages={3326--3340},
+  year={2025}
+}
+
+@inproceedings{antony2025design,
+  title={The design of on-body robots for older adults},
+  author={Antony, Victor Nikhil and Jeon, Clara and Li, Jiasheng and Gao, Ge and Peng, Huaishu and Ostrowski, Anastasia K and Huang, Chien-Ming},
+  booktitle={2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},
+  pages={589--598},
+  year={2025},
+  organization={IEEE}
+}
+```
+
+
+
   
 
 
