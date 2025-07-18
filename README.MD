@@ -55,11 +55,11 @@ Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) 
 ## ✨ Features
 
 - Powerful MCU: ESP32 S3-Zero (Powered by [Waveshare](https://www.waveshare.com/wiki/ESP32-S3-Zero)) 
-- DC Motor Driver: DRV 8835
+- Graphical user interface (GUI) for real time control
 - Wi-Fi connection and controlled
 - LED strip for visual feedback
+- DC Motor Driver: DRV 8835
 - LiPo's battery powered and charge via USB-C
-- Graphical user interface (GUI) for real time control
 
 ---
 
