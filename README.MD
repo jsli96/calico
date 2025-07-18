@@ -1,6 +1,6 @@
 # Calico 🤖
 
-![Dance^2](calico_dancers.avif)
+![Dance^2](calico_dancers.png)
 
 **Calico** is a miniature relocatable wearable system with fast and precise locomotion for on-body interaction, actuation and sensing. 
 Calico consists of a two-wheel robot and an on-cloth track mechanism or "railway," on which the robot travels. 
