@@ -6,7 +6,7 @@
 Calico consists of a two-wheel robot and an on-cloth track mechanism or "railway," on which the robot travels. 
 The robot is self-contained, small in size, and has additional sensor expansion options. 
 The Calico robot can adapt for various applications and target for different audience such as older adults, dancers, and children. 
-For example, we designed **[Dance^2](https://www.jonathan-david-martin.com/dance-squared)** with Calico to explore new forms of dance and movement, and to create a new form of interaction.
+For example, we designed **[Dance^2](https://dancesquared.xyz/)** with Calico to explore new forms of dance and movement, and to create a new form of interaction.
 We also investigate how **[Calico for older adults](https://dl.acm.org/doi/10.5555/3721488.3721562)** can assist with daily activities and provide companionship. 
 
 Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) and [papers](https://dl.acm.org/doi/10.1145/3715336.3735828) for more details on the design and applications of Calico, and if you use Calico in your work, please consider to cite the following papers:
