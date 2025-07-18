@@ -3,7 +3,11 @@
 **Calico** is a miniature relocatable wearable system with fast and precise locomotion for on-body interaction, actuation and sensing. 
 Calico consists of a two-wheel robot and an on-cloth track mechanism or "railway," on which the robot travels. 
 The robot is self-contained, small in size, and has additional sensor expansion options. 
-
+The Calico robot can adapt for various applications and target for different audience such as elder adults, dancers, and children. 
+We designed **[Dance^2](https://www.jonathan-david-martin.com/dance-squared)** with Calico robot to explore new forms of dance and movement, and to create a new form of interaction.
+We also investigate how **[Calico for older adults](https://dl.acm.org/doi/10.5555/3721488.3721562)** can assist with daily activities and provide companionship. 
+Please see the [Calico papers](https://smartlab.cs.umd.edu/publication/calico) for more details on the design and applications of Calico.
+![Dance^2](calico_dancers.avif)
 For more detailed information, please refer to the [paper website](https://smartlab.cs.umd.edu/publication/calico).
 
 ---
@@ -33,10 +37,10 @@ For more detailed information, please refer to the [paper website](https://smart
 
 ### Robot body and tracks 
 ![Robot body](kart.png)
-- [Main body](./3D%20print%20models) (3D print: PLA)
-- [Body cap](./3D%20print%20models) (3D print: PLA)
-- [Wheels](./3D%20print%20models) (3D print: PLA or Carbon PLA)
-- [Track](./3D%20print%20models) (3D print: TPU)
+- [Main body](./3D%20print%20models) (3D print material: PLA)
+- [Body cap](./3D%20print%20models) (3D print material: PLA)
+- [Wheels](./3D%20print%20models) (3D print material: PLA or Carbon PLA)
+- [Track](./3D%20print%20models) (3D print material: TPU Shore95A)
 - M2 screws and insert nuts 
 
 ### Robot electronics
@@ -75,7 +79,8 @@ To connect and control the robot, follow these steps:
    const char* ssid = "your-ssid";
    const char* password = "your-password";
    ```
-4. **Upload the code** to the ESP32 S3-Zero by clicking the upload button in the Arduino IDE. (You only need to do this once. After you have updated the Wi-Fi credentials and uploaded the code into Calico robot, you can control the robot without needing to upload the code again.)
+4. **Upload the code** to the ESP32 S3-Zero by clicking the upload button in the Arduino IDE. (You only need to do this once. 
+After you have updated the Wi-Fi credentials and uploaded the code into Calico robot, you can control the robot without needing to upload the code again.)
    - Make sure you have the correct board and port selected in the Arduino IDE.
    - The upload process may take a few minutes, and you will see the progress in the console at the bottom of the IDE.
 5. Once the upload is complete, open the Serial Monitor from `Tools` > `Serial Monitor` to see the connection status.
