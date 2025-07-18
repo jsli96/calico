@@ -17,7 +17,7 @@ Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) 
 
 - [Features](#-features)  
 - [Hardware setup (BOM)](#-hardware)  
-- [Arduino Configuration](#arduino-configuration)
+- [Arduino configuration](#arduino-configuration)
 - [Connect & control the robot](#connect--control-the-robot)
 - [Tips](#tips)
 - [Publications](#citations)
@@ -127,6 +127,7 @@ After you have updated the Wi-Fi credentials and uploaded the code into Calico r
 4. The robot can be charged via USB-C port. (**be careful with the battery +/- directions**)
    - The battery is 3.7V LiPo battery, and the charging current is 500mA.
    - The battery can be replaced if needed.
+
 
 ## Citations
 If you use Calico in your work, please consider to cite the following papers:
