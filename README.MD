@@ -151,7 +151,7 @@ After you have updated the Wi-Fi credentials and uploaded the code into Calico r
 2. If you can not see the ip address from the serial port you can use LanScan tools to find the IP address of the robot. 
    - For example, you can use [LanScan](https://apps.apple.com/us/app/lanscan/id472226235?mt=12) or [Advanced IP Scanner](https://www.advanced-ip-scanner.com/).
 
-3. Battery connector is JST PH 2.0, and motor connectors are JST SH 1.0.
+3. Battery connector is JST PH 2.0, and motor and LED connectors are JST SH 1.0.
 4. The robot can be charged via USB-C port. (**be careful with the battery +/- directions**)
    - The battery is 3.7V LiPo battery, and the charging current is 500mA.
    - The battery can be replaced if needed.
