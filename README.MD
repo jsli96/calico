@@ -47,7 +47,8 @@ Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) 
     - Supports: Yes 
   - Bamboo project file is included for reference: [3MF file](./3D%20print%20models/main_body.3mf)
 
-- [Body cap](./3D%20print%20models) (3D print material: PLA)
+- [Body cap](./3D%20print%20models) (Recommended setting same as above)
+  - Require M2 screws and insert nuts to attach the body cap to the main body.
 - [Wheels](./3D%20print%20models) (3D print material: PLA or Carbon PLA)
 - [Track](./3D%20print%20models)
   - 3D print material: TPU Shore-95A
@@ -62,7 +63,7 @@ Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) 
     
   - See below figures for references.
     ![Track assembly](./3D%20print%20models/track_assembly.png)
-- M2 screws and insert nuts 
+
 
 
 
