@@ -38,11 +38,33 @@ Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) 
 
 ### Robot body and tracks 
 ![Robot body](kart.png)
-- [Main body](./3D%20print%20models) (3D print material: PLA)
+- [Main body](./3D%20print%20models) 
+  - 3D print material: PLA or Carbon PLA
+  - Recommended print settings: 
+    - Layer height: 0.2mm
+    - Infill: 20% (or more for stronger body)
+    - Print angle: 30 degrees
+    - Supports: Yes 
+  - Bamboo project file is included for reference: [3MF file](./3D%20print%20models/main_body.3mf)
+
 - [Body cap](./3D%20print%20models) (3D print material: PLA)
 - [Wheels](./3D%20print%20models) (3D print material: PLA or Carbon PLA)
-- [Track](./3D%20print%20models) (3D print material: TPU Shore95A)
+- [Track](./3D%20print%20models)
+  - 3D print material: TPU Shore-95A
+  - Recommended print settings: 
+    - Layer height: 0.2mm
+    - Infill: 20% 
+    - Print angle: Flat (0 degrees)
+    - Supports: Yes 
+  - Bamboo project file is included for reference: [3MF file](./3D%20print%20models/track.3mf)
+  - Tracks are designed in modular pieces, and you can print multiple pieces to create a longer track. 
+    To connect the track pieces, you need a 1.75mm filament (e.g., PLA) and insert them into designed holes at the both end of the track pieces.
+    
+  - See below figures for references.
+    ![Track assembly](./3D%20print%20models/track_assembly.png)
 - M2 screws and insert nuts 
+
+
 
 ### Robot electronics
 ![PCB](control-Board.png)
@@ -51,6 +73,8 @@ Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) 
 - N20 DC motors
 - LED strip (4 LEDs)
 - 3.7V LiPo battery
+
+
 
 ---
 
