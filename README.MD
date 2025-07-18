@@ -21,7 +21,9 @@ Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) 
   year={2022},
   publisher={ACM New York, NY, USA}
 }
+```
 
+```
 @inproceedings{sathya2025cybernetic,
   title={Cybernetic Marionette: Channeling Collective Agency Through a Wearable Robot in a Live Dancer-Robot Duet},
   author={Sathya, Anup and Li, Jiasheng and Yan, Zeyu and Fang, Adriane and Kules, Bill and Martin, Jonathan David and Peng, Huaishu},
@@ -29,7 +31,8 @@ Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) 
   pages={3326--3340},
   year={2025}
 }
-
+```
+```
 @inproceedings{antony2025design,
   title={The design of on-body robots for older adults},
   author={Antony, Victor Nikhil and Jeon, Clara and Li, Jiasheng and Gao, Ge and Peng, Huaishu and Ostrowski, Anastasia K and Huang, Chien-Ming},
