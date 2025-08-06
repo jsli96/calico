@@ -57,7 +57,7 @@ Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) 
 
 ## ✨ Features
 
-- Powerful MCU: ESP32 S3-Zero (Powered by [Waveshare](https://www.waveshare.com/wiki/ESP32-S3-Zero)) 
+- MCU: ESP32 S3-Zero (Powered by [Waveshare](https://www.waveshare.com/wiki/ESP32-S3-Zero)) 
 - Graphical user interface (GUI) for real time control
 - Wi-Fi connection and controlled
 - LED strip for visual feedback
