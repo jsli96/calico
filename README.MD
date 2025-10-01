@@ -115,11 +115,12 @@ Please see the [Calico website](https://smartlab.cs.umd.edu/publication/calico) 
 The robot is powered by an ESP32 S3-Zero, which is programmed using the Arduino IDE. 
 Please refer to the below steps to set up the Arduino IDE for Calico.
 - Install the [Arduino IDE](https://www.arduino.cc/en/software).
-- Add ESP32 board support by going to `File` > `Preferences` and adding the following URL to the "Additional Boards Manager URLs" field:
+- Open Arduino IDE settings (Mac Version) `Arduino IDE` (the top-left corner on the screen) > `Settings`, (Win version) `File` > `Preferences` 
+- Adding the following URL to the "Additional Boards Manager URLs" field:
   ```
   https://dl.espressif.com/dl/package_esp32_index.json
   ```
-- Open the Boards Manager from `Tools` > `Board` > `Boards Manager`, search for "ESP32," and install the latest version of the ESP32 board package.
+- Open the Boards Manager from `Tools` > `Board` > `Boards Manager`, search for `esp32`. Then install the latest version of `esp32 by Espressif Systems`.
 - Select the ESP32 S3-Zero board from `Tools` > `Board` > `ESP32 S3 Dev Module`.
 - Refer to the below image to configure the ESP32 settings:
 - ![ESP32-S3](esp32-3s-ide-settings.png)
